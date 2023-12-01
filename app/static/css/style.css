@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    color: white; /* Sets the text color to white */
+}
+
+.container {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Adds shadow to the container */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.05); /* Zebra striping for tables */
+}
